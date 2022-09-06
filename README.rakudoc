@@ -1,0 +1,15 @@
+=begin pod
+=TITLE Repository for Collection Plugins
+
+These are the released versions of Collection Plugins.
+
+Given a plugin used by a Collection Mode that renders into html
+=item called 'my-plugin'
+=item with a config key C<version> of I<1.2.3>
+=item with a config key C<auth> of I<collection>
+
+then the released plugin will be
+
+    my-plugin_v1_auth_collection
+
+=end pod
