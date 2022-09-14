@@ -3,6 +3,38 @@
 
 These are the released versions of Collection Plugins.
 
+=head1 Structure of directory
+
+    - manifest.rakuon
+        (A Raku Object Notation file containing a list of all released plugins)
+    - README.md
+        (This file)
+    - README.rakudoc
+        (Source for this file)
+    - plugins/
+        - html/
+            <sub-directory for each plugin>
+    - bin/
+        - syncronise
+        (Raku program to rewrite manifest.rakuon from plugins data)
+
+=head1 Structure of manifest.rakuon file
+
+C<manifest.rakuon> evaluates to a Hash.
+
+The keys of the Hash match the directory structure until the plugin names. Then there is a
+full version number. For example,
+
+    %( plugins => %(
+        html => %(
+            camelia_V0_auth_collection => %(
+                version => '0.1.0'
+            ),
+        ),
+    )
+
+=head1 Naming
+
 Given a plugin used by a Collection Mode that renders into html
 =item called 'my-plugin'
 =item with a config key C<version> of I<1.2.3>
