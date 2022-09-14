@@ -1,0 +1,24 @@
+%(
+	:plugins( %(
+		:html( %(
+			:camelia_v0_auth_collection<0.1.0>,
+			:cro-app_v0_auth_collection<0.1.0>,
+			:filterlines_v0_auth_collection<0.1.0>,
+			:font-awesome_v0_auth_collection<0.1.0>,
+			:gather-css_v0_auth_collection<0.1.0>,
+			:gather-js-jq_v0_auth_collection<0.1.0>,
+			:graphviz_v0_auth_collection<0.1.0>,
+			:images_v0_auth_collection<0.1.0>,
+			:latex-render_v0_auth_collection<0.1.0>,
+			:leafletmap_v0_auth_collection<0.1.0>,
+			:link-error-test_v0_auth_collection<0.1.0>,
+			:link-plugin-assets-report_v0_auth_collection<0.1.0>,
+			:listfiles_v0_auth_collection<0.1.0>,
+			:raku-doc-setup_v0_auth_collection<0.1.0>,
+			:raku-styling_v0_auth_collection<0.1.0>,
+			:simple-extras_v0_auth_collection<0.1.0>,
+			:typegraph_v0_auth_collection<0.1.0>,
+			:website_v0_auth_collection<0.1.0>,
+		)),
+	)),
+)
