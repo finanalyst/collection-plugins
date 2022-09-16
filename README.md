@@ -19,9 +19,7 @@ These are the released versions of Collection Plugins.
 - plugins/
     - html/
         <sub-directory for each plugin>
-- bin/
-    - syncronise
-    (Raku program to rewrite manifest.rakuon from plugins data)
+    - <sub-directory for other formats>
 ```
 # Structure of manifest.rakuon file
 `manifest.rakuon` evaluates to a Hash.
@@ -58,4 +56,4 @@ my-plugin_v1_auth_collection
 
 
 ----
-Rendered from README at 2022-09-14T19:33:39Z
+Rendered from README at 2022-09-16T21:15:13Z
