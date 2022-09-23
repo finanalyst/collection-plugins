@@ -13,5 +13,6 @@
 	:name<gather-js-jq>,
 	:render<js-collator.raku>,
 	:template-raku<js-templates.raku>,
-	:version<0.1.0>,
+	:transfer<cleanup.raku>,
+	:version<0.2.0>,
 )
