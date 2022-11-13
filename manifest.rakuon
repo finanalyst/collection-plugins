@@ -32,7 +32,7 @@
 				:version<0.2.0>,
 			)),
 			:link-error-test_v0_auth_collection( %(
-				:version<0.2.0>,
+				:version<0.3.0>,
 			)),
 			:link-plugin-assets-report_v0_auth_collection( %(
 				:version<0.2.0>,
