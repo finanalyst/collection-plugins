@@ -2,46 +2,46 @@
 	:plugins( %(
 		:html( %(
 			:camelia_v0_auth_collection( %(
-				:version<0.2.0>,
+				:version<0.3.0>,
 			)),
 			:cro-app_v0_auth_collection( %(
-				:version<0.2.0>,
+				:version<0.3.0>,
 			)),
 			:filterlines_v0_auth_collection( %(
 				:version<0.2.0>,
 			)),
 			:font-awesome_v0_auth_collection( %(
-				:version<0.2.0>,
+				:version<0.3.0>,
 			)),
 			:gather-css_v0_auth_collection( %(
-				:version<0.2.0>,
+				:version<0.3.0>,
 			)),
 			:gather-js-jq_v0_auth_collection( %(
-				:version<0.2.0>,
+				:version<0.3.0>,
 			)),
 			:graphviz_v0_auth_collection( %(
 				:version<0.2.0>,
 			)),
 			:images_v0_auth_collection( %(
-				:version<0.2.0>,
+				:version<0.3.0>,
 			)),
 			:latex-render_v0_auth_collection( %(
 				:version<0.2.0>,
 			)),
 			:leafletmap_v0_auth_collection( %(
-				:version<0.2.0>,
-			)),
-			:link-error-test_v0_auth_collection( %(
 				:version<0.3.0>,
 			)),
+			:link-error-test_v0_auth_collection( %(
+				:version<0.3.1>,
+			)),
 			:link-plugin-assets-report_v0_auth_collection( %(
-				:version<0.2.0>,
+				:version<0.3.1>,
 			)),
 			:listfiles_v0_auth_collection( %(
 				:version<0.2.0>,
 			)),
 			:raku-doc-setup_v0_auth_collection( %(
-				:version<0.2.0>,
+				:version<0.3.0>,
 			)),
 			:raku-styling_v0_auth_collection( %(
 				:version<0.2.0>,
