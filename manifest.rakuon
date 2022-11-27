@@ -14,19 +14,19 @@
 				:version<0.3.0>,
 			)),
 			:gather-css_v0_auth_collection( %(
-				:version<0.3.1>,
+				:version<0.3.2>,
 			)),
 			:gather-js-jq_v0_auth_collection( %(
-				:version<0.3.1>,
+				:version<0.3.2>,
 			)),
 			:graphviz_v0_auth_collection( %(
-				:version<0.2.0>,
+				:version<0.2.1>,
 			)),
 			:images_v0_auth_collection( %(
-				:version<0.3.0>,
+				:version<0.3.1>,
 			)),
 			:latex-render_v0_auth_collection( %(
-				:version<0.2.0>,
+				:version<0.2.1>,
 			)),
 			:leafletmap_v0_auth_collection( %(
 				:version<0.3.0>,
