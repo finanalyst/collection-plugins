@@ -5,7 +5,7 @@
 				:version<0.3.0>,
 			)),
 			:cro-app_v0_auth_collection( %(
-				:version<0.3.0>,
+				:version<0.3.1>,
 			)),
 			:filterlines_v0_auth_collection( %(
 				:version<0.2.0>,
@@ -14,10 +14,10 @@
 				:version<0.3.0>,
 			)),
 			:gather-css_v0_auth_collection( %(
-				:version<0.3.2>,
+				:version<0.3.3>,
 			)),
 			:gather-js-jq_v0_auth_collection( %(
-				:version<0.3.2>,
+				:version<0.3.3>,
 			)),
 			:graphviz_v0_auth_collection( %(
 				:version<0.2.1>,
@@ -32,7 +32,7 @@
 				:version<0.3.0>,
 			)),
 			:link-error-test_v0_auth_collection( %(
-				:version<0.3.2>,
+				:version<0.3.3>,
 			)),
 			:link-plugin-assets-report_v0_auth_collection( %(
 				:version<0.3.1>,
@@ -41,10 +41,13 @@
 				:version<0.2.0>,
 			)),
 			:raku-doc-setup_v0_auth_collection( %(
-				:version<0.3.0>,
+				:version<0.3.1>,
 			)),
 			:raku-styling_v0_auth_collection( %(
 				:version<0.2.0>,
+			)),
+			:secondaries_v0_auth_collection( %(
+				:version<0.1.0>,
 			)),
 			:simple-extras_v0_auth_collection( %(
 				:version<0.2.0>,
