@@ -10,6 +10,6 @@
 	:render<move-images-in-css.raku>,
 	:scss<raku-default-styling.scss>,
 	:template-raku(),
-	:js-script<sidebar.js>,
+	:jq-script<sidebar.js>,
 	:version<0.3.0>,
 )
