@@ -1,0 +1,100 @@
+#raku-repl {
+    position: fixed;
+    bottom: 0;
+    left: 1vw;
+    width: 98vw;
+    z-index: 100;
+    opacity: 80%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    justify-content: stretch;
+    grid-template-areas:
+        "input input"
+        "stdout stderr"
+}
+#Camelia-code {
+    visibility: hidden;
+	width: 100px;
+	height: 48px;
+}
+#raku-input {
+    display: flex;
+    flex-direction: row;
+    grid-area: input;
+    background-color: whitesmoke;
+    gap: 5px;
+}
+#raku-code {
+    border-color: darkblue;
+    border-width: 2px;
+    border-radius: 10px;
+    border-style: ridge;
+    visibility: inherit;
+}
+#raku-evaluate {
+    border-radius: 10px;
+    color: whitesmoke;
+    background-color: darkblue;
+    visibility: inherit;
+    &:hover {
+        border-color: red;
+    }
+}
+#raku-hide {
+    visibility: inherit;
+    display: flex;
+    img {
+        width: 45px;
+        position: fixed;
+    }
+    .code-overlay {
+        width: 45px;
+        span:first-child {
+            transform: translate(-6px,18px) rotate(45deg);
+            display: block;
+            height: 6px;
+            width: 130%;
+            border-radius: 10px;
+            background: rgba(0,0,0,0.6);
+        }
+        span:last-child {
+            transform: translate(-8px,12px) rotate(-45deg);
+            display: block;
+            height: 6px;
+            width: 130%;
+            border-radius: 10px;
+            background: rgba(0,0,0,0.6);
+        }
+    }
+}
+
+#raku-ws-headout {
+    border-color: deepskyblue;
+    border-width: 2px;
+    border-radius: 10px;
+    border-style: ridge;
+    grid-area: stdout;
+    display: flex;
+    justify-content: start;
+    background-color: whitesmoke;
+    visibility: inherit;
+    legend {
+        color: darkblue;
+    visibility: inherit;
+    }
+}
+#raku-ws-headerr {
+    border-color: deeppink;
+    border-width: 2px;
+    border-radius: 10px;
+    border-style: ridge;
+    grid-area: stderr;
+    display: flex;
+    justify-content: start;
+    background-color: whitesmoke;
+    visibility: inherit;
+    legend {
+        color: darkred;
+    }
+}
