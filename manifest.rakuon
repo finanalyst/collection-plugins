@@ -47,7 +47,7 @@
 				:version<0.1.0>,
 			)),
 			:raku-styling_v0_auth_collection( %(
-				:version<0.3.0>,
+				:version<0.3.1>,
 			)),
 			:secondaries_v0_auth_collection( %(
 				:version<0.1.6>,
