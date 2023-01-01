@@ -40,6 +40,9 @@
 			:listfiles_v0_auth_collection( %(
 				:version<0.2.0>,
 			)),
+			:ogdenwebb_v0_auth_collection( %(
+				:version<0.1.0>,
+			)),
 			:raku-doc-setup_v0_auth_collection( %(
 				:version<0.3.4>,
 			)),
