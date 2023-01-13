@@ -1,7 +1,7 @@
 $(function () {
-    setup_glot_io();
     setup_sidebar();
     setup_theme();
+    setup_search();
 });
 
 // Open navbar menu via burger button on mobiles
@@ -32,12 +32,12 @@ document.addEventListener('DOMContentLoaded', () => {
 function setup_theme() {
     var theme = cookie.get('color-scheme', undefined);
     if (theme === undefined) {
-        cookie.set({ 'color-scheme': 'light' }, { expires: 30, path: '/' });
+        cookie.set({ 'color-scheme': 'light' }, { expires: 30, path: '/', sameSite: 'lax', secure: true });
     }
     $('#toggle-theme').each(function (i, el) {
         $(el).click(function () {
             var theme = cookie.get('color-scheme', 'light');
-            cookie.set({ 'color-scheme': theme === 'light' ? 'dark' : 'light' }, { expires: 30, path: '/' });
+            cookie.set({ 'color-scheme': theme === 'light' ? 'dark' : 'light' }, { expires: 30, path: '/', sameSite: 'lax', secure: true });
             let links = document.getElementsByTagName('link');
             for (let i = 0; i < links.length; i++) {
                 if (links[i].getAttribute('rel') == 'stylesheet') {
@@ -56,66 +56,6 @@ function setup_theme() {
     });
 }
 
-function setup_glot_io() {
-    // CodeMirror editor is enabled on click
-    $('.code-output').prev().each(function (i, el) {
-        $(el).click(function () {
-            var $el = $(this);
-            // If already editor, return
-            if ($el.find('.CodeMirror').length != 0) { return; }
-            // If not a Raku snippet, return
-            if (!$el.parent().hasClass('raku-lang')) { return; }
-            let editorText = $($el.find('code').html().replaceAll('<div class="line">', '').replaceAll('</div>', '\n')).text();
-            CodeMirror(el, {
-                lineNumbers: true,
-                lineWrapping: true,
-                mode: 'perl6',
-                scrollbarStyle: 'null',
-                theme: 'ayaya',
-                value: editorText
-            });
-            $el.find('code').text('');
-        });
-    });
-
-    // Run code button
-    $('.code-button').each(function (i, el) {
-        $(el).click(function () {
-            var code = '';
-            var output_top = '<p class="code-output-title">Output</p>';
-            $(this).closest('.raku-code').find('.CodeMirror-code .CodeMirror-line').each(function (i, el) { code += $(el).text() + "\n"; });
-            if (code.length == 0) {
-                $(this).closest('.raku-code').find('code').each(function (i, el) { $(el).find('.line').each(function (i, el) { code += $(el).text() + "\n"; }) });
-            }
-
-            // Adds a spinner for the user to wait...
-            $(el).closest('.raku-code').find('.code-output').each(function (i, el) {
-                $(el).find('div').append(
-                    $('<div/>').addClass("code-run-spinner-container")
-                        .append($('<div/>').addClass("code-run-spinner")
-                            .append($('<img/>').attr('id', 'camelia-spinner').attr('src', 'https://raku.org/camelia-logo.png').attr('width', '50'))
-                            .append($('<p/>').text('Running Code'))
-                        )
-                );
-            });
-            jQuery.ajax('/run', {
-                method: 'POST',
-                success: function (data) {
-                    $(el).closest('.raku-code').find('.code-output').each(function (i, el) {
-                        $(el).find('div').html(output_top + data);
-                    });
-                },
-                data: { code: code },
-                error: function (req, error) {
-                    $(el).closest('.raku-code').find('.code-output').each(function (i, el) {
-                        $(el).find('div').html(output_top + 'Error occurred: ' + error);
-                    });
-                }
-            });
-        });
-    });
-}
-
 var sidebar_is_shown;
 
 function setup_sidebar() {
@@ -124,10 +64,13 @@ function setup_sidebar() {
         // If the screen is not wide enough and the sidebar overlaps content -
         // hide it (if it was not enabled on purpose and so was in cookies)
         sidebar_is_shown = $(window).width() > 1760;
-        cookie.set({ sidebar: sidebar_is_shown }, { expires: 30, path: '/' });
-        if (!sidebar_is_shown) {
-            hide_sidebar($('.raku-sidebar-toggle')[0]);
-        }
+        cookie.set({ sidebar: sidebar_is_shown }, { expires: 30, path: '/', sameSite: 'lax', secure: true });
+    }
+    if (sidebar_is_shown) {
+        show_sidebar($('.raku-sidebar-toggle')[0]);
+    }
+    else {
+        hide_sidebar($('.raku-sidebar-toggle')[0]);
     }
 
     function hide_sidebar(el) {
@@ -150,6 +93,11 @@ function setup_sidebar() {
         if (svg !== undefined) {
             svg.setAttribute('data-icon', 'chevron-left');
         }
+        else {
+            var i_icon = $(el).find('i')[0];
+            $(i).removeClass('fa-chevron-right');
+            $(i).addClass('fa-chevron-left');
+        }
         $("#mainSidebar").css('width', '');
         $("#mainSidebar").css('display', 'block');
         $(el).css('left', '');
@@ -165,7 +113,7 @@ function setup_sidebar() {
                 sidebar_is_shown = true;
                 show_sidebar(el);
             }
-            cookie.set({ sidebar: sidebar_is_shown }, { expires: 30, path: '/' });
+            cookie.set({ sidebar: sidebar_is_shown }, { expires: 30, path: '/', sameSite: 'lax', secure: true });
         });
     });
 
@@ -221,5 +169,26 @@ function setup_sidebar() {
             $(elem).parents('li').show();
         });
         $matchingListElements.show();
+    });
+}
+function setup_search() {
+    $('#query').focus(function () {
+        if ($('.navbar-menu').css('display') == 'flex') {
+            $("#query").stop(true);
+            $('.navbar-start').hide();
+            $("#query").animate({ width: "980px" }, 200, function () { $(".navbar-search-autocomplete").width("980px"); $('#navbar-search').show(); });
+        } else {
+            $('#navbar-search').show();
+        }
+        $('#navMenu').addClass('navbar-autocomplete-active');
+    });
+    $('#query').blur(function () {
+        if ($('.navbar-menu').css('display') == 'flex') {
+            $("#query").stop(true);
+            $("#query").animate({ width: "200px" }, 400, function () { $('.navbar-start').show() });
+        }
+
+        $('#navbar-search').hide();
+        $('#navMenu').removeClass('navbar-autocomplete-active');
     });
 }

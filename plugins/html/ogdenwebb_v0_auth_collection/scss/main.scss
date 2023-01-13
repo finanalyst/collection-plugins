@@ -6,10 +6,10 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:400,700');
 
 // Custom modules
-@import "./base/variables";
-@import "./base/base";
-@import "./modules/sidebar";
-@import "./code/highlighting";
+@import "./base/variables.scss";
+@import "./base/base.scss";
+@import "./modules/sidebar.scss";
+@import "./code/highlighting.scss";
 
 // Initial Bulma stuff
 @import "../bulma/sass/utilities/_all.sass";
@@ -52,4 +52,4 @@
 @import "../bulma/sass/helpers/spacing.sass";
 
 // Responsiveness & custom fixes
-@import "./base/layout";
+@import "./base/layout.scss";

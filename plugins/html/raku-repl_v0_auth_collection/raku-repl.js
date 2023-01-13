@@ -1,5 +1,5 @@
 let websocketPort = 443;
-let websocketHost = 'raku.finanalyst.org';
+let websocketHost = 'finanalyst.org';
 //render callable added configuration data
 //let websocketHost = xxxx;
 
@@ -29,6 +29,10 @@ const connect = function() {
         // This will fire when the server sends the user a message
         socket.onmessage = (data) => {
             let parsedData = JSON.parse(data.data);
+            if (parsedData.connection == 'Confirmed') {
+                document.getElementById('raku-connection').style.visibility = 'hidden';
+                document.getElementById('raku-evaluate').disabled = false;
+            }
             const resOut = document.getElementById('raku-ws-stdout');
             const resErr = document.getElementById('raku-ws-stderr');
             resOut.textContent = parsedData.stdout;
@@ -79,8 +83,8 @@ document.addEventListener('DOMContentLoaded', function() {
         <img id="Camelia-code" title="Click to get Raku evaluation bar"
             src="/assets/images/Camelia.svg"/>
         <div id="raku-input">
-            <textarea rows="2" cols="40" id="raku-code"></textarea>
-            <button id="raku-evaluate" title="Evaluate Raku code">Run</button>
+            <textarea rows="2" cols="40" id="raku-code" placeholder="Type some Raku code and Click 'Run'"></textarea>
+            <button id="raku-evaluate" title="Evaluate Raku code" disabled>Run</button>
             <button id="raku-hide" title="Close evaluation bar">
                 <img src="/assets/images/Camelia.svg"/>
                 <div class="code-overlay">
@@ -88,6 +92,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     <span></span>
                 </div>
             </button>
+            <label id="raku-connection">Waiting for connection</label>
         </div>
         <fieldset id="raku-ws-headout"><legend>Output</legend>
             <div id="raku-ws-stdout"></div>
