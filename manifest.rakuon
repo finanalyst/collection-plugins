@@ -44,13 +44,13 @@
 				:version<0.2.0>,
 			)),
 			:ogdenwebb_v0_auth_collection( %(
-				:version<0.1.6>,
+				:version<0.1.7>,
 			)),
 			:raku-doc-setup_v0_auth_collection( %(
 				:version<0.3.4>,
 			)),
 			:raku-repl_v0_auth_collection( %(
-				:version<0.1.7>,
+				:version<0.1.8>,
 			)),
 			:raku-styling_v0_auth_collection( %(
 				:version<0.3.1>,
