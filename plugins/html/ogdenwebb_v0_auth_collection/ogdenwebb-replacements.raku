@@ -215,7 +215,7 @@ use v6.d;
         qq:to/BLOCK/
         <div class="page-edit">
             <a class="button page-edit-button"
-               href="https://github.com/Raku/doc/edit/master/{ %tml<escaped>.(~$0) }"
+               href="https://github.com/Raku/doc/edit/main/{ %tml<escaped>.(~$0) }"
                title="Edit this page.">
               <span class="icon is-right">
                 <i class="fas fa-pen-alt is-medium"></i>
