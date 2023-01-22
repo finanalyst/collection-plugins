@@ -2,70 +2,70 @@
 	:plugins( %(
 		:html( %(
 			:camelia_v0_auth_collection( %(
-				:version<0.3.0>,
+				:version<0.3.1>,
 			)),
 			:cro-app_v0_auth_collection( %(
-				:version<0.3.1>,
+				:version<0.3.2>,
 			)),
 			:deprecate-span_v0_auth_collection( %(
-				:version<0.1.0>,
+				:version<0.1.1>,
 			)),
 			:filterlines_v0_auth_collection( %(
-				:version<0.2.0>,
+				:version<0.2.1>,
 			)),
 			:font-awesome_v0_auth_collection( %(
-				:version<0.3.0>,
+				:version<0.3.1>,
 			)),
 			:gather-css_v0_auth_collection( %(
-				:version<0.3.4>,
-			)),
-			:gather-js-jq_v0_auth_collection( %(
 				:version<0.3.5>,
 			)),
+			:gather-js-jq_v0_auth_collection( %(
+				:version<0.3.6>,
+			)),
 			:graphviz_v0_auth_collection( %(
-				:version<0.2.1>,
-			)),
-			:images_v0_auth_collection( %(
-				:version<0.3.1>,
-			)),
-			:latex-render_v0_auth_collection( %(
-				:version<0.2.1>,
-			)),
-			:leafletmap_v0_auth_collection( %(
-				:version<0.3.3>,
-			)),
-			:link-error-test_v0_auth_collection( %(
-				:version<0.3.4>,
-			)),
-			:link-plugin-assets-report_v0_auth_collection( %(
-				:version<0.3.1>,
-			)),
-			:listfiles_v0_auth_collection( %(
-				:version<0.2.0>,
-			)),
-			:ogdenwebb_v0_auth_collection( %(
-				:version<0.1.11>,
-			)),
-			:raku-doc-setup_v0_auth_collection( %(
-				:version<0.3.4>,
-			)),
-			:raku-repl_v0_auth_collection( %(
-				:version<0.1.10>,
-			)),
-			:raku-styling_v0_auth_collection( %(
-				:version<0.3.1>,
-			)),
-			:secondaries_v0_auth_collection( %(
-				:version<0.1.9>,
-			)),
-			:simple-extras_v0_auth_collection( %(
-				:version<0.2.0>,
-			)),
-			:typegraph_v0_auth_collection( %(
 				:version<0.2.2>,
 			)),
-			:website_v0_auth_collection( %(
+			:images_v0_auth_collection( %(
+				:version<0.3.2>,
+			)),
+			:latex-render_v0_auth_collection( %(
+				:version<0.2.2>,
+			)),
+			:leafletmap_v0_auth_collection( %(
+				:version<0.3.5>,
+			)),
+			:link-error-test_v0_auth_collection( %(
+				:version<0.3.5>,
+			)),
+			:link-plugin-assets-report_v0_auth_collection( %(
+				:version<0.3.2>,
+			)),
+			:listfiles_v0_auth_collection( %(
 				:version<0.2.1>,
+			)),
+			:ogdenwebb_v0_auth_collection( %(
+				:version<0.1.12>,
+			)),
+			:raku-doc-setup_v0_auth_collection( %(
+				:version<0.3.5>,
+			)),
+			:raku-repl_v0_auth_collection( %(
+				:version<0.1.11>,
+			)),
+			:raku-styling_v0_auth_collection( %(
+				:version<0.3.2>,
+			)),
+			:secondaries_v0_auth_collection( %(
+				:version<0.1.10>,
+			)),
+			:simple-extras_v0_auth_collection( %(
+				:version<0.2.1>,
+			)),
+			:typegraph_v0_auth_collection( %(
+				:version<0.2.3>,
+			)),
+			:website_v0_auth_collection( %(
+				:version<0.2.2>,
 			)),
 		)),
 	)),
