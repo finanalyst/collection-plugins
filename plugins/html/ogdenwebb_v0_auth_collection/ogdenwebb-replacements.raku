@@ -40,10 +40,10 @@ use v6.d;
                   <a class="navbar-item" href="/language.html">
                     Language
                   </a>
-                  <a class="navbar-item" href="/type.html">
+                  <a class="navbar-item" href="/types.html">
                     Types
                   </a>
-                  <a class="navbar-item" href="/routine.html">
+                  <a class="navbar-item" href="/routines.html">
                     Routines
                   </a>
                   <a class="navbar-item" href="/programs.html">
@@ -66,6 +66,10 @@ use v6.d;
                     <hr class="navbar-divider">
                     <a class="navbar-item" href="/about.html">
                       About
+                    </a>
+                    <hr class="navbar-divider">
+                    <a class="navbar-item" href="/error-report.html">
+                      Errors
                     </a>
                   </div>
                 </div>
@@ -226,10 +230,6 @@ use v6.d;
     },
     'end-block' => sub (%prm, %tml) {
         qq:to/BLOCK/
-        <script
-            defer=""
-            src="https://use.fontawesome.com/releases/v5.3.1/js/all.js">
-        </script>
         <div
             role="status"
             aria-live="assertive"
