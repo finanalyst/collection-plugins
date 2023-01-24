@@ -44,7 +44,7 @@
 				:version<0.2.2>,
 			)),
 			:ogdenwebb_v0_auth_collection( %(
-				:version<0.1.16>,
+				:version<0.1.17>,
 			)),
 			:raku-doc-setup_v0_auth_collection( %(
 				:version<0.3.5>,
@@ -56,12 +56,12 @@
 				:version<0.3.2>,
 			)),
 			:secondaries_v0_auth_collection( %(
-				:version<0.1.10>,
+				:version<0.1.11>,
 			)),
 			:simple-extras_v0_auth_collection( %(
 				:version<0.2.1>,
 			)),
-			:tablesearch_v0_auth_collection( %(
+			:tablemanager_v0_auth_collection( %(
 				:version<0.1.0>,
 			)),
 			:typegraph_v0_auth_collection( %(
