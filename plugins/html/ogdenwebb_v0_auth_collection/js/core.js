@@ -59,7 +59,7 @@ $(document).ready( function() {
     function move_sidebar( show ) {
         var el = $('#raku-sidebar');
         var svg = $(el).find('svg')[0];
-        if (sidebar_is_shown) {
+        if ( show ) {
             $("#mainSidebar").css('width', '');
             $("#mainSidebar").css('display', 'block');
             $(el).css('left', '');

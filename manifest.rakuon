@@ -44,7 +44,7 @@
 				:version<0.2.2>,
 			)),
 			:ogdenwebb_v0_auth_collection( %(
-				:version<0.1.21>,
+				:version<0.1.22>,
 			)),
 			:raku-doc-setup_v0_auth_collection( %(
 				:version<0.3.5>,
