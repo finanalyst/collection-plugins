@@ -14,7 +14,7 @@
 				:version<0.2.1>,
 			)),
 			:font-awesome_v0_auth_collection( %(
-				:version<0.3.1>,
+				:version<0.4.1>,
 			)),
 			:gather-css_v0_auth_collection( %(
 				:version<0.3.5>,
@@ -44,7 +44,7 @@
 				:version<0.2.2>,
 			)),
 			:ogdenwebb_v0_auth_collection( %(
-				:version<0.1.22>,
+				:version<0.2.0>,
 			)),
 			:raku-doc-setup_v0_auth_collection( %(
 				:version<0.3.5>,
@@ -65,7 +65,7 @@
 				:version<0.1.0>,
 			)),
 			:typegraph_v0_auth_collection( %(
-				:version<0.3.0>,
+				:version<0.3.1>,
 			)),
 			:website_v0_auth_collection( %(
 				:version<0.2.2>,
