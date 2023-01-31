@@ -4,6 +4,9 @@
 			:camelia_v0_auth_collection( %(
 				:version<0.3.1>,
 			)),
+			:credits-page_v0_auth_collection( %(
+				:version<0.1.0>,
+			)),
 			:cro-app_v0_auth_collection( %(
 				:version<0.3.2>,
 			)),
@@ -44,13 +47,13 @@
 				:version<0.2.2>,
 			)),
 			:ogdenwebb_v0_auth_collection( %(
-				:version<0.2.1>,
+				:version<0.2.2>,
 			)),
 			:raku-doc-setup_v0_auth_collection( %(
 				:version<0.3.5>,
 			)),
 			:raku-repl_v0_auth_collection( %(
-				:version<0.2.0>,
+				:version<0.2.1>,
 			)),
 			:raku-styling_v0_auth_collection( %(
 				:version<0.3.2>,
@@ -65,7 +68,7 @@
 				:version<0.1.1>,
 			)),
 			:typegraph_v0_auth_collection( %(
-				:version<0.3.1>,
+				:version<0.3.2>,
 			)),
 			:website_v0_auth_collection( %(
 				:version<0.2.2>,
