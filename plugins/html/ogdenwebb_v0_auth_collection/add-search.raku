@@ -35,7 +35,7 @@ sub ( $pp, %processed, %options ) {
         @entries.push: %(
             :category( $podf.pod-config-data<kind>.tc ),
             :value( escape( $podf.title )),
-            :info( 'source file' ),
+            :info( 'is source file name' ),
             :url( escape-json( '/' ~ $fn ~ '.html' ))
         );
         $categories{ $podf.pod-config-data<kind>.tc }++
@@ -48,7 +48,7 @@ sub ( $pp, %processed, %options ) {
             @entries.push: %(
                 :$category,
                 :value( escape( %info<name> ) ),
-                :info( escape('｢' ~ %info<subkind> ~ '｣' ~ 'in file ' ~ $fn) ),
+                :info( escape-json('｢' ~ %info<subkind> ~ '｣' ~ ' in file <b>' ~ $fn ~ '</b>') ),
                 :url( escape-json( "/$fn\.html\#$targ" ) )
             )
         }
