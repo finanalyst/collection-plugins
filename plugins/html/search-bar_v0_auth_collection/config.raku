@@ -10,7 +10,7 @@
 	:name<search-bar>,
 	:render,
 	:template-raku<search-templates.raku>,
-	:version<0.1.0>,
+	:version<0.1.1>,
 	:jquery( ['autoComplete.min.js',1], ['search-bar.js',2], ['extended-search.js', 2]),
 	:information<jquery jquery-link add-css>,
 	:jquery-link(

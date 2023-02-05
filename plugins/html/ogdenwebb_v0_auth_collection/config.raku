@@ -10,7 +10,7 @@
 	:name<ogdenwebb>,
 	:render<move-images.raku>,
 	:template-raku<ogdenwebb-replacements.raku>,
-	:version<0.2.11>,
+	:version<0.2.12>,
 	:add-css<
 		css/main.css
 		css/themes/dark.css css/themes/light.css
