@@ -38,7 +38,7 @@
 				:version<0.3.5>,
 			)),
 			:link-error-test_v0_auth_collection( %(
-				:version<0.3.7>,
+				:version<0.3.8>,
 			)),
 			:link-plugin-assets-report_v0_auth_collection( %(
 				:version<0.3.3>,
@@ -47,7 +47,7 @@
 				:version<0.2.2>,
 			)),
 			:ogdenwebb_v0_auth_collection( %(
-				:version<0.2.16>,
+				:version<0.2.17>,
 			)),
 			:raku-doc-setup_v0_auth_collection( %(
 				:version<0.3.5>,
