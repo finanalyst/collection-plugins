@@ -25,6 +25,9 @@
 			:gather-js-jq_v0_auth_collection( %(
 				:version<0.3.6>,
 			)),
+			:git-reflog_v0_auth_collection( %(
+				:version<0.1.0>,
+			)),
 			:graphviz_v0_auth_collection( %(
 				:version<0.2.2>,
 			)),
@@ -47,10 +50,10 @@
 				:version<0.2.2>,
 			)),
 			:ogdenwebb_v0_auth_collection( %(
-				:version<0.2.17>,
+				:version<0.2.18>,
 			)),
 			:raku-doc-setup_v0_auth_collection( %(
-				:version<0.3.5>,
+				:version<0.3.6>,
 			)),
 			:raku-repl_v0_auth_collection( %(
 				:version<0.2.4>,
@@ -59,7 +62,7 @@
 				:version<0.3.2>,
 			)),
 			:search-bar_v0_auth_collection( %(
-				:version<0.1.9>,
+				:version<0.1.10>,
 			)),
 			:secondaries_v0_auth_collection( %(
 				:version<0.1.15>,
