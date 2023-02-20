@@ -186,6 +186,7 @@ use v6.d;
             <nav class="level">
             { %tml<footer-left>.(%prm, %tml) }
             { %tml<page-generated>.(%prm, %tml) }
+            <div class="level-item">Raku™</div>
             { %tml<footer-right>.(%prm, %tml) }
             </nav>
           </div>
