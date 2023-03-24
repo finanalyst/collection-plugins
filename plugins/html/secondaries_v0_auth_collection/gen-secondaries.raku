@@ -96,7 +96,7 @@ sub ($pp, %processed, %options) {
                 $body ~= %templates<para>.(%(
                    :contents(qq:to/CONT/)
                         See primary documentation
-                        <a href="/{ .<source> }.html#{ .<target> }">in context\</a>
+                        <a href="/{ .<source> }#{ .<target> }">in context\</a>
                         for <b>{ .<target>.subst( / '_' / , ' ', :g ) }</b>
                     CONT
                 ), %templates);
@@ -105,7 +105,7 @@ sub ($pp, %processed, %options) {
                     .<category>.tc,
                     $dn,
                     .<subkind>,
-                    qq[[<a href="/{ .<source> }.html#{ .<target> }">{ .<source> }</a>]]
+                    qq[[<a href="/{ .<source> }#{ .<target> }">{ .<source> }</a>]]
                 ];
             }
             # Construct TOC
@@ -115,7 +115,7 @@ sub ($pp, %processed, %options) {
             $podf.pod-config-data(:$kind, :@subkind, :@category);
             %processed{$fn-name} = $podf;
             # Output html file / construct transfer triple
-            "html/$fn-name\.html".IO.spurt: %templates<source-wrap>.(%(
+            "html/$fn-name".IO.spurt: %templates<source-wrap>.(%(
                 :$title,
                 :$subtitle,
                 :$body,
@@ -125,7 +125,7 @@ sub ($pp, %processed, %options) {
                 :meta(''),
                 :footnotes(''),
             ), %templates);
-            @transfers.push: ["$fn-name\.html", 'myself', "html/$fn-name\.html"]
+            @transfers.push: ["$fn-name", 'myself', "html/$fn-name"]
         }
     }
     my %ns;
