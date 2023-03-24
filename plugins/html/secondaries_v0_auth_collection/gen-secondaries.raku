@@ -115,7 +115,7 @@ sub ($pp, %processed, %options) {
             $podf.pod-config-data(:$kind, :@subkind, :@category);
             %processed{$fn-name} = $podf;
             # Output html file / construct transfer triple
-            "html/$fn-name".IO.spurt: %templates<source-wrap>.(%(
+            "html/$fn-name\.html".IO.spurt: %templates<source-wrap>.(%(
                 :$title,
                 :$subtitle,
                 :$body,
@@ -125,7 +125,7 @@ sub ($pp, %processed, %options) {
                 :meta(''),
                 :footnotes(''),
             ), %templates);
-            @transfers.push: ["$fn-name", 'myself', "html/$fn-name"]
+            @transfers.push: ["$fn-name\.html", 'myself', "html/$fn-name.html"]
         }
     }
     my %ns;

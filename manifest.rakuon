@@ -62,7 +62,7 @@
 				:version<0.1.14>,
 			)),
 			:secondaries_v0_auth_collection( %(
-				:version<0.2.3>,
+				:version<0.2.4>,
 			)),
 			:simple-extras_v0_auth_collection( %(
 				:version<0.2.1>,
