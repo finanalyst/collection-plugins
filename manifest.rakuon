@@ -8,7 +8,7 @@
 				:version<0.1.0>,
 			)),
 			:cro-app_v0_auth_collection( %(
-				:version<0.3.2>,
+				:version<0.3.3>,
 			)),
 			:deprecate-span_v0_auth_collection( %(
 				:version<0.1.1>,
@@ -48,6 +48,9 @@
 			)),
 			:ogdenwebb_v0_auth_collection( %(
 				:version<0.3.6>,
+			)),
+			:pop-search_v0_auth_collection( %(
+				:version<0.1.0>,
 			)),
 			:raku-doc-setup_v0_auth_collection( %(
 				:version<0.3.6>,
