@@ -8,7 +8,7 @@
 				:version<0.1.0>,
 			)),
 			:cro-app_v0_auth_collection( %(
-				:version<0.3.3>,
+				:version<0.3.4>,
 			)),
 			:deprecate-span_v0_auth_collection( %(
 				:version<0.1.1>,
