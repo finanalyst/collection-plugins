@@ -1,0 +1,14 @@
+%(
+	:auth<collection>,
+	:authors(
+		"finanalyst",
+	),
+	:compilation<compilation-callable.raku>,
+	:custom-raku(),
+	:license<Artistic-2.0>,
+	:name<pop-search>,
+	:render,
+	:template-raku(),
+	:transfer<transfer-callable.raku>,
+	:version<0.1.0>,
+)
