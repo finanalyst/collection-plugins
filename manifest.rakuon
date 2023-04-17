@@ -26,7 +26,7 @@
 				:version<0.3.6>,
 			)),
 			:generated_v0_auth_collection( %(
-				:version<0.1.0>,
+				:version<0.1.1>,
 			)),
 			:graphviz_v0_auth_collection( %(
 				:version<0.2.2>,
