@@ -23,7 +23,7 @@
 				:version<0.3.6>,
 			)),
 			:gather-js-jq_v0_auth_collection( %(
-				:version<0.3.6>,
+				:version<0.3.7>,
 			)),
 			:generated_v0_auth_collection( %(
 				:version<0.1.1>,
@@ -65,7 +65,7 @@
 				:version<0.3.3>,
 			)),
 			:search-bar_v0_auth_collection( %(
-				:version<0.1.18>,
+				:version<0.1.19>,
 			)),
 			:secondaries_v0_auth_collection( %(
 				:version<0.4.2>,
