@@ -50,7 +50,7 @@
 				:version<0.2.3>,
 			)),
 			:ogdenwebb_v0_auth_collection( %(
-				:version<0.3.11>,
+				:version<0.3.12>,
 			)),
 			:pop-search_v0_auth_collection( %(
 				:version<0.1.0>,
@@ -65,10 +65,10 @@
 				:version<0.3.3>,
 			)),
 			:search-bar_v0_auth_collection( %(
-				:version<0.1.17>,
+				:version<0.1.18>,
 			)),
 			:secondaries_v0_auth_collection( %(
-				:version<0.4.1>,
+				:version<0.4.2>,
 			)),
 			:simple-extras_v0_auth_collection( %(
 				:version<0.2.1>,
