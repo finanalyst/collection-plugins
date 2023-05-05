@@ -65,7 +65,7 @@
 				:version<0.3.3>,
 			)),
 			:search-bar_v0_auth_collection( %(
-				:version<0.1.21>,
+				:version<0.1.22>,
 			)),
 			:secondaries_v0_auth_collection( %(
 				:version<0.4.2>,
