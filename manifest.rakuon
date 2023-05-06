@@ -26,7 +26,7 @@
 				:version<0.3.7>,
 			)),
 			:generated_v0_auth_collection( %(
-				:version<0.1.1>,
+				:version<0.1.2>,
 			)),
 			:graphviz_v0_auth_collection( %(
 				:version<0.2.2>,
@@ -65,7 +65,7 @@
 				:version<0.3.3>,
 			)),
 			:search-bar_v0_auth_collection( %(
-				:version<0.1.22>,
+				:version<0.1.23>,
 			)),
 			:secondaries_v0_auth_collection( %(
 				:version<0.4.2>,
