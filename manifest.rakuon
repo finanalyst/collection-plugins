@@ -50,7 +50,7 @@
 				:version<0.2.3>,
 			)),
 			:ogdenwebb_v0_auth_collection( %(
-				:version<0.3.12>,
+				:version<0.3.13>,
 			)),
 			:pop-search_v0_auth_collection( %(
 				:version<0.1.0>,
