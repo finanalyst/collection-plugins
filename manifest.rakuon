@@ -31,6 +31,9 @@
 			:graphviz_v0_auth_collection( %(
 				:version<0.2.2>,
 			)),
+			:hiliter_v0_auth_collection( %(
+				:version<0.1.0>,
+			)),
 			:images_v0_auth_collection( %(
 				:version<0.3.2>,
 			)),
