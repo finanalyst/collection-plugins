@@ -32,7 +32,7 @@
 				:version<0.2.2>,
 			)),
 			:hiliter_v0_auth_collection( %(
-				:version<0.1.0>,
+				:version<0.1.1>,
 			)),
 			:images_v0_auth_collection( %(
 				:version<0.3.2>,
@@ -53,6 +53,9 @@
 				:version<0.2.3>,
 			)),
 			:ogdenwebb_v0_auth_collection( %(
+				:version<0.3.20>,
+			)),
+			:page-styling_v0_auth_collection( %(
 				:version<0.3.19>,
 			)),
 			:pop-search_v0_auth_collection( %(
