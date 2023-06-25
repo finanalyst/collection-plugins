@@ -13,6 +13,9 @@
 			:deprecate-span_v0_auth_collection( %(
 				:version<0.1.1>,
 			)),
+			:filtered-toc_v0_auth_collection( %(
+				:version<0.1.0>,
+			)),
 			:filterlines_v0_auth_collection( %(
 				:version<0.2.1>,
 			)),
@@ -53,13 +56,10 @@
 				:version<0.2.3>,
 			)),
 			:ogdenwebb_v0_auth_collection( %(
-				:version<0.3.20>,
+				:version<0.3.21>,
 			)),
 			:page-styling_v0_auth_collection( %(
-				:version<0.3.19>,
-			)),
-			:pop-search_v0_auth_collection( %(
-				:version<0.1.24>,
+				:version<0.1.0>,
 			)),
 			:raku-doc-setup_v0_auth_collection( %(
 				:version<0.3.6>,
@@ -71,10 +71,13 @@
 				:version<0.3.3>,
 			)),
 			:search-bar_v0_auth_collection( %(
-				:version<0.1.25>,
+				:version<0.1.26>,
 			)),
 			:secondaries_v0_auth_collection( %(
 				:version<0.4.2>,
+			)),
+			:sidebar-search_v0_auth_collection( %(
+				:version<0.1.24>,
 			)),
 			:simple-extras_v0_auth_collection( %(
 				:version<0.2.1>,
