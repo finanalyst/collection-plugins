@@ -2,94 +2,94 @@
 	:plugins( %(
 		:html( %(
 			:camelia_v0_auth_collection( %(
-				:version<0.3.1>,
+				:version<0.3.2>,
 			)),
 			:credits-page_v0_auth_collection( %(
-				:version<0.1.0>,
+				:version<0.1.1>,
 			)),
 			:cro-app_v0_auth_collection( %(
-				:version<0.4.1>,
+				:version<0.4.2>,
 			)),
 			:deprecate-span_v0_auth_collection( %(
-				:version<0.1.1>,
+				:version<0.1.2>,
 			)),
 			:filtered-toc_v0_auth_collection( %(
 				:version<0.1.0>,
 			)),
 			:filterlines_v0_auth_collection( %(
-				:version<0.2.1>,
+				:version<0.2.2>,
 			)),
 			:font-awesome_v0_auth_collection( %(
-				:version<0.4.2>,
+				:version<0.4.3>,
 			)),
 			:gather-css_v0_auth_collection( %(
-				:version<0.3.6>,
-			)),
-			:gather-js-jq_v0_auth_collection( %(
 				:version<0.3.7>,
 			)),
+			:gather-js-jq_v0_auth_collection( %(
+				:version<0.3.8>,
+			)),
 			:generated_v0_auth_collection( %(
-				:version<0.1.3>,
+				:version<0.1.4>,
 			)),
 			:graphviz_v0_auth_collection( %(
-				:version<0.2.2>,
-			)),
-			:hiliter_v0_auth_collection( %(
-				:version<0.1.1>,
-			)),
-			:images_v0_auth_collection( %(
-				:version<0.3.2>,
-			)),
-			:latex-render_v0_auth_collection( %(
-				:version<0.2.2>,
-			)),
-			:leafletmap_v0_auth_collection( %(
-				:version<0.3.5>,
-			)),
-			:link-error-test_v0_auth_collection( %(
-				:version<0.3.10>,
-			)),
-			:link-plugin-assets-report_v0_auth_collection( %(
-				:version<0.3.3>,
-			)),
-			:listfiles_v0_auth_collection( %(
 				:version<0.2.3>,
 			)),
-			:ogdenwebb_v0_auth_collection( %(
-				:version<0.3.21>,
+			:hiliter_v0_auth_collection( %(
+				:version<0.1.2>,
 			)),
-			:page-styling_v0_auth_collection( %(
-				:version<0.1.0>,
+			:images_v0_auth_collection( %(
+				:version<0.3.3>,
 			)),
-			:raku-doc-setup_v0_auth_collection( %(
+			:latex-render_v0_auth_collection( %(
+				:version<0.2.3>,
+			)),
+			:leafletmap_v0_auth_collection( %(
 				:version<0.3.6>,
 			)),
-			:raku-repl_v0_auth_collection( %(
+			:link-error-test_v0_auth_collection( %(
+				:version<0.3.11>,
+			)),
+			:link-plugin-assets-report_v0_auth_collection( %(
+				:version<0.3.4>,
+			)),
+			:listfiles_v0_auth_collection( %(
 				:version<0.2.4>,
 			)),
+			:ogdenwebb_v0_auth_collection( %(
+				:version<0.3.22>,
+			)),
+			:page-styling_v0_auth_collection( %(
+				:version<0.1.1>,
+			)),
+			:raku-doc-setup_v0_auth_collection( %(
+				:version<0.3.7>,
+			)),
+			:raku-repl_v0_auth_collection( %(
+				:version<0.2.5>,
+			)),
 			:raku-styling_v0_auth_collection( %(
-				:version<0.3.3>,
+				:version<0.3.4>,
 			)),
 			:search-bar_v0_auth_collection( %(
 				:version<0.1.26>,
 			)),
 			:secondaries_v0_auth_collection( %(
-				:version<0.4.2>,
+				:version<0.4.3>,
 			)),
 			:sidebar-search_v0_auth_collection( %(
 				:version<0.1.24>,
 			)),
 			:simple-extras_v0_auth_collection( %(
-				:version<0.2.1>,
+				:version<0.2.2>,
 			)),
 			:tablemanager_v0_auth_collection( %(
-				:version<0.1.1>,
+				:version<0.1.2>,
 			)),
 			:typegraph_v0_auth_collection( %(
-				:version<0.3.6>,
+				:version<0.3.7>,
 			)),
 			:website_v0_auth_collection( %(
-				:version<0.2.3>,
+				:version<0.2.4>,
 			)),
 		)),
 	)),
