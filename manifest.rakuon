@@ -59,7 +59,7 @@
 				:version<0.2.4>,
 			)),
 			:ogdenwebb_v0_auth_collection( %(
-				:version<0.3.23>,
+				:version<0.3.24>,
 			)),
 			:page-styling_v0_auth_collection( %(
 				:version<0.1.2>,
