@@ -1,17 +1,14 @@
 %(
 	:auth<collection>,
 	:authors(
-		"finanalyst",
-		"ogdenwebb",
-		"altai-man",
+		"finanalyst"
 	),
 	:custom-raku(),
 	:license<Artistic-2.0>,
 	:name<page-styling>,
 	:render<move-images.raku>,
 	:template-raku<page-styling.raku>,
-	:error-report,
-	:version<0.1.2>,
+	:version<0.1.3>,
 	:add-css<
 		css/page-styling-main.css
 		css/page-styling-dark.css css/page-styling-light.css
