@@ -92,7 +92,7 @@
 				:version<0.1.2>,
 			)),
 			:typegraph_v0_auth_collection( %(
-				:version<0.4.0>,
+				:version<0.4.1>,
 			)),
 			:website_v0_auth_collection( %(
 				:version<0.2.4>,
