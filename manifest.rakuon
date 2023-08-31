@@ -1,9 +1,6 @@
 %(
 	:plugins( %(
 		:html( %(
-			:ast-hiliter_v0_auth_collection( %(
-				:version<0.1.0>,
-			)),
 			:camelia_v0_auth_collection( %(
 				:version<0.3.2>,
 			)),
@@ -80,7 +77,7 @@
 				:version<0.1.2>,
 			)),
 			:search-bar_v0_auth_collection( %(
-				:version<0.1.26>,
+				:version<0.1.27>,
 			)),
 			:secondaries_v0_auth_collection( %(
 				:version<0.4.6>,
