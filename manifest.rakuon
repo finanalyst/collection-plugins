@@ -8,7 +8,7 @@
 				:version<0.1.1>,
 			)),
 			:cro-app_v0_auth_collection( %(
-				:version<0.4.2>,
+				:version<0.4.3>,
 			)),
 			:deprecate-span_v0_auth_collection( %(
 				:version<0.1.2>,
@@ -56,7 +56,7 @@
 				:version<0.3.4>,
 			)),
 			:listfiles_v0_auth_collection( %(
-				:version<0.2.4>,
+				:version<0.3.0>,
 			)),
 			:ogdenwebb_v0_auth_collection( %(
 				:version<0.3.27>,
@@ -65,10 +65,10 @@
 				:version<0.1.3>,
 			)),
 			:page-styling_v0_auth_collection( %(
-				:version<0.1.9>,
+				:version<0.2.0>,
 			)),
 			:raku-doc-setup_v0_auth_collection( %(
-				:version<0.3.7>,
+				:version<0.3.6>,
 			)),
 			:raku-repl_v0_auth_collection( %(
 				:version<0.2.5>,
