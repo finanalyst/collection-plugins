@@ -62,7 +62,7 @@
 				:version<0.3.27>,
 			)),
 			:options-search_v0_auth_collection( %(
-				:version<0.1.13>,
+				:version<0.1.14>,
 			)),
 			:page-styling_v0_auth_collection( %(
 				:version<0.2.4>,
@@ -80,10 +80,10 @@
 				:version<0.1.2>,
 			)),
 			:search-bar_v0_auth_collection( %(
-				:version<0.1.27>,
+				:version<0.1.28>,
 			)),
 			:secondaries_v0_auth_collection( %(
-				:version<0.4.6>,
+				:version<0.4.7>,
 			)),
 			:sidebar-search_v0_auth_collection( %(
 				:version<0.1.3>,
