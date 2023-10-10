@@ -62,7 +62,7 @@
 				:version<0.3.27>,
 			)),
 			:options-search_v0_auth_collection( %(
-				:version<0.1.16>,
+				:version<0.1.17>,
 			)),
 			:page-styling_v0_auth_collection( %(
 				:version<0.2.4>,
