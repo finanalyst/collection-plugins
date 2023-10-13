@@ -92,7 +92,7 @@
 				:version<0.2.2>,
 			)),
 			:sitemap_v0_auth_collection( %(
-				:version<0.1.0>,
+				:version<0.1.1>,
 			)),
 			:tablemanager_v0_auth_collection( %(
 				:version<0.1.3>,
