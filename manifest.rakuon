@@ -50,7 +50,7 @@
 				:version<0.3.6>,
 			)),
 			:link-error-test_v0_auth_collection( %(
-				:version<0.3.12>,
+				:version<0.3.13>,
 			)),
 			:link-plugin-assets-report_v0_auth_collection( %(
 				:version<0.3.5>,
@@ -83,7 +83,7 @@
 				:version<0.1.28>,
 			)),
 			:secondaries_v0_auth_collection( %(
-				:version<0.4.8>,
+				:version<0.4.9>,
 			)),
 			:sidebar-search_v0_auth_collection( %(
 				:version<0.1.3>,
