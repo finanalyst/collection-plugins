@@ -65,7 +65,7 @@
 				:version<0.1.17>,
 			)),
 			:page-styling_v0_auth_collection( %(
-				:version<0.2.8>,
+				:version<0.2.9>,
 			)),
 			:raku-doc-setup_v0_auth_collection( %(
 				:version<0.3.6>,
