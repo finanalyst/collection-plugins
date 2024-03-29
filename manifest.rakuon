@@ -13,6 +13,9 @@
 			:deprecate-span_v0_auth_collection( %(
 				:version<0.1.2>,
 			)),
+			:ebook-embed_v0_auth_collection( %(
+				:version<0.1.0>,
+			)),
 			:filtered-toc_v0_auth_collection( %(
 				:version<0.1.4>,
 			)),
@@ -23,7 +26,7 @@
 				:version<0.4.3>,
 			)),
 			:gather-css_v0_auth_collection( %(
-				:version<0.3.7>,
+				:version<0.3.8>,
 			)),
 			:gather-js-jq_v0_auth_collection( %(
 				:version<0.3.8>,
@@ -50,7 +53,7 @@
 				:version<0.3.6>,
 			)),
 			:link-error-test_v0_auth_collection( %(
-				:version<0.3.17>,
+				:version<0.3.18>,
 			)),
 			:link-plugin-assets-report_v0_auth_collection( %(
 				:version<0.3.5>,
@@ -65,10 +68,10 @@
 				:version<0.1.20>,
 			)),
 			:page-styling_v0_auth_collection( %(
-				:version<0.2.20>,
+				:version<0.2.21>,
 			)),
 			:raku-doc-setup_v0_auth_collection( %(
-				:version<0.3.6>,
+				:version<0.3.7>,
 			)),
 			:raku-repl_v0_auth_collection( %(
 				:version<0.2.5>,
@@ -83,7 +86,7 @@
 				:version<0.1.28>,
 			)),
 			:secondaries_v0_auth_collection( %(
-				:version<0.4.14>,
+				:version<0.5.0>,
 			)),
 			:sidebar-search_v0_auth_collection( %(
 				:version<0.1.3>,
@@ -94,8 +97,11 @@
 			:sitemap_v0_auth_collection( %(
 				:version<0.1.2>,
 			)),
+			:sqlite-db_v0_auth_collection( %(
+				:version<0.1.0>,
+			)),
 			:tablemanager_v0_auth_collection( %(
-				:version<0.1.3>,
+				:version<0.2.0>,
 			)),
 			:typegraph_v0_auth_collection( %(
 				:version<0.4.1>,
