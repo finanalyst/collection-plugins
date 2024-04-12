@@ -112,16 +112,16 @@
 				:version<0.3.2>,
 			)),
 			:ebook-embed_v0_auth_collection( %(
-				:version<0.1.0>,
+				:version<0.1.1>,
 			)),
 			:font-awesome_v0_auth_collection( %(
-				:version<0.4.3>,
+				:version<0.4.4>,
 			)),
 			:gather-css_v0_auth_collection( %(
 				:version<0.3.8>,
 			)),
 			:gather-js-jq_v0_auth_collection( %(
-				:version<0.3.8>,
+				:version<0.3.9>,
 			)),
 			:generated_v0_auth_collection( %(
 				:version<0.1.4>,
@@ -136,7 +136,7 @@
 				:version<0.3.5>,
 			)),
 			:raku-doc-setup_v0_auth_collection( %(
-				:version<0.3.7>,
+				:version<0.3.8>,
 			)),
 			:rakudoc-table_v0_auth_collection( %(
 				:version<0.1.2>,
