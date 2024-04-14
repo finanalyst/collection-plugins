@@ -65,7 +65,7 @@
 				:version<0.1.20>,
 			)),
 			:page-styling_v0_auth_collection( %(
-				:version<0.2.21>,
+				:version<0.3.0>,
 			)),
 			:raku-doc-setup_v0_auth_collection( %(
 				:version<0.3.7>,
@@ -109,7 +109,7 @@
 		)),
 		:xhtml( %(
 			:camelia_v0_auth_collection( %(
-				:version<0.3.2>,
+				:version<0.4.0>,
 			)),
 			:ebook-embed_v0_auth_collection( %(
 				:version<0.1.1>,
@@ -118,7 +118,7 @@
 				:version<0.4.4>,
 			)),
 			:gather-css_v0_auth_collection( %(
-				:version<0.3.8>,
+				:version<0.4.0>,
 			)),
 			:gather-js-jq_v0_auth_collection( %(
 				:version<0.3.9>,
@@ -127,13 +127,13 @@
 				:version<0.1.4>,
 			)),
 			:hiliter_v0_auth_collection( %(
-				:version<0.1.4>,
+				:version<0.2.0>,
 			)),
 			:images_v0_auth_collection( %(
 				:version<0.3.3>,
 			)),
 			:link-plugin-assets-report_v0_auth_collection( %(
-				:version<0.3.5>,
+				:version<0.4.0>,
 			)),
 			:raku-doc-setup_v0_auth_collection( %(
 				:version<0.3.8>,
