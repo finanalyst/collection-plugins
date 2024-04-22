@@ -62,13 +62,13 @@
 				:version<0.3.27>,
 			)),
 			:options-search_v0_auth_collection( %(
-				:version<0.1.20>,
+				:version<0.1.21>,
 			)),
 			:page-styling_v0_auth_collection( %(
-				:version<0.3.0>,
+				:version<0.3.1>,
 			)),
 			:raku-doc-setup_v0_auth_collection( %(
-				:version<0.3.7>,
+				:version<0.3.8>,
 			)),
 			:raku-repl_v0_auth_collection( %(
 				:version<0.2.5>,
