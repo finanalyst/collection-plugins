@@ -29,7 +29,7 @@
 				:version<0.3.8>,
 			)),
 			:generated_v0_auth_collection( %(
-				:version<0.1.4>,
+				:version<0.1.5>,
 			)),
 			:graphviz_v0_auth_collection( %(
 				:version<0.2.3>,
