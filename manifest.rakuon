@@ -41,7 +41,7 @@
 				:version<0.1.0>,
 			)),
 			:hiliter_v0_auth_collection( %(
-				:version<0.1.4>,
+				:version<0.1.5>,
 			)),
 			:images_v0_auth_collection( %(
 				:version<0.3.3>,
@@ -68,7 +68,7 @@
 				:version<0.1.23>,
 			)),
 			:page-styling_v0_auth_collection( %(
-				:version<0.3.7>,
+				:version<0.3.8>,
 			)),
 			:raku-doc-setup_v0_auth_collection( %(
 				:version<0.3.9>,
